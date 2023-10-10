@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.playersController">
+   <children>
+      <Button layoutX="45.0" layoutY="34.0" mnemonicParsing="false" onAction="#addPlayer" prefHeight="25.0" prefWidth="128.0" text="Add new player" />
+      <ListView fx:id="playersList" layoutX="92.0" layoutY="88.0" prefHeight="422.0" prefWidth="392.0" />
+      <Button layoutX="244.0" layoutY="34.0" mnemonicParsing="false" onAction="#updatePlayer" text="Update player" />
+      <Button layoutX="419.0" layoutY="34.0" mnemonicParsing="false" onAction="#deletePlayer" text="Delete player" />
+      <Button layoutX="502.0" layoutY="485.0" mnemonicParsing="false" onAction="#toMenu" text="Back" />
+   </children>
+</AnchorPane>

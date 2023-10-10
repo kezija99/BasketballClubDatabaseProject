@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.oponentsController">
+   <children>
+      <Button layoutX="30.0" layoutY="32.0" mnemonicParsing="false" onAction="#addOponent" prefHeight="25.0" prefWidth="143.0" text="Add new oponent" />
+      <ListView fx:id="oponentsList" layoutX="92.0" layoutY="88.0" prefHeight="422.0" prefWidth="392.0" />
+      <Button layoutX="243.0" layoutY="32.0" mnemonicParsing="false" onAction="#updateOponent" text="Update oponent" />
+      <Button layoutX="418.0" layoutY="32.0" mnemonicParsing="false" onAction="#deleteOponent" text="Delete oponent" />
+      <Button layoutX="497.0" layoutY="485.0" mnemonicParsing="false" onAction="#toMenu" text="Back" />
+   </children>
+</AnchorPane>

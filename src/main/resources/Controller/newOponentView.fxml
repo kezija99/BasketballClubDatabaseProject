@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="316.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.newOponentController">
+   <children>
+      <TextField fx:id="name" layoutX="73.0" layoutY="65.0" />
+      <Label layoutX="94.0" layoutY="31.0" text="Enter oponent name" />
+      <Label layoutX="112.0" layoutY="141.0" text="Choose a hall" />
+      <ChoiceBox fx:id="hall" layoutX="73.0" layoutY="168.0" prefWidth="150.0" />
+      <Button layoutX="122.0" layoutY="229.0" mnemonicParsing="false" onAction="#add" text="Add" />
+      <Label fx:id="label" layoutX="48.0" layoutY="285.0" prefHeight="17.0" prefWidth="201.0" />
+   </children>
+</AnchorPane>

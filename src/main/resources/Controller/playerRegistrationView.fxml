@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.playerRegistrationController">
+   <children>
+      <ListView fx:id="playerList" layoutX="59.0" layoutY="99.0" prefHeight="388.0" prefWidth="261.0" />
+      <ChoiceBox fx:id="playerChoice" layoutX="372.0" layoutY="203.0" prefWidth="150.0" />
+      <Button layoutX="398.0" layoutY="287.0" mnemonicParsing="false" onAction="#registerPlayer" text="Register player" />
+      <Label fx:id="gameLabel" layoutX="24.0" layoutY="44.0" prefHeight="17.0" prefWidth="448.0" />
+      <Button layoutX="421.0" layoutY="404.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

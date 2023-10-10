@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.gamesController">
+   <children>
+      <Button layoutX="136.0" layoutY="107.0" mnemonicParsing="false" onAction="#addNewGame" prefHeight="25.0" prefWidth="109.0" text="Add new game" />
+      <ListView fx:id="gamesList" layoutX="91.0" layoutY="161.0" prefHeight="422.0" prefWidth="582.0" />
+      <ChoiceBox fx:id="seasonList" layoutX="756.0" layoutY="332.0" prefHeight="25.0" prefWidth="88.0" />
+      <ChoiceBox fx:id="competitionList" layoutX="756.0" layoutY="420.0" prefHeight="25.0" prefWidth="88.0" />
+      <Button layoutX="774.0" layoutY="482.0" mnemonicParsing="false" onAction="#showFilteredGames" text="Show" />
+      <Label layoutX="758.0" layoutY="300.0" text="Select season" />
+      <Label layoutX="748.0" layoutY="386.0" text="Select competition" />
+      <Label fx:id="filterLabel" layoutX="786.0" layoutY="545.0" />
+      <Button layoutX="751.0" layoutY="219.0" mnemonicParsing="false" onAction="#registrationView" prefHeight="25.0" prefWidth="98.0" text="Show players" />
+      <Button layoutX="356.0" layoutY="107.0" mnemonicParsing="false" onAction="#updateGame" prefHeight="25.0" prefWidth="109.0" text="Update game" />
+      <Button layoutX="545.0" layoutY="107.0" mnemonicParsing="false" onAction="#deleteGame" prefHeight="25.0" prefWidth="109.0" text="Delete game" />
+      <Button layoutX="844.0" layoutY="29.0" mnemonicParsing="false" onAction="#toMenu" prefHeight="25.0" prefWidth="51.0" text="Back" />
+   </children>
+</AnchorPane>
